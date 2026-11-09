@@ -6,7 +6,7 @@ A small learning project that answers questions about Oracle Data Transforms usi
 
 `Oracle documentation → clean text → section-aware chunks → keyword retrieval → selected model → answer with source URLs`
 
-The current retriever uses lexical keyword overlap. It does not use embeddings or a vector database yet. The project contains one ingested Oracle REST API page and its 12 section-aware chunks.
+The current retriever uses lexical keyword overlap. It does not use embeddings or a vector database yet. The local learning corpus uses one Oracle REST API page split into 12 section-aware chunks. Downloaded documentation and generated chunk data are excluded from Git, so each developer builds them locally.
 
 ## Requirements
 
